@@ -45,7 +45,9 @@ The evaluation metric for the competition was Root Mean Squared Error (RMSE) sco
 ## Feature Importance
 This graph below shows the most important features that made the most impact to the model
 ![feature_importance](https://github.com/daniel8691/AirbnbListing_ML/blob/main/Project_Images/feature_importance.png)
-* Room type seems to contribute to the price of Airbnb listing the most, much more than the number of bedrooms within the rental unit. Airbnb unit owners could consider looking into the most profitable room types that travelers are looking for. 
+* Room type seems to contribute to the price of Airbnb listing the most, much more than the number of bedrooms within the rental unit. Airbnb unit owners could consider looking into the most profitable room types that travelers are looking for.
+  * **PS** The room_type feature describes whether the Airbnb unit is an "Entire home/apt", "Private Room", or "Shared Room"
 * The number of bedrooms/bathrooms/accomodates to no suprise, affects Airbnb prices significantly. However, these features are more difficult to control as units with higher number of bedrooms/bathrooms/accomodates tend to be more expensive to purchase.
+  * The Accomodates feature tells us how many guests the unit can accomodate for.
 * Zipcode/Latitude/Longitude also affect Airbnb listing prices, so further analysis could be done on which locations are the most profitable
 
